@@ -16,10 +16,10 @@ const int N = 101;
 int stack[N];//堆栈
 int top; //栈顶指针
 
-int a[N]; //出栈序列
+int a[N]; //指定的出栈序列；指定的丞相编组
 
 
-int n;  //车厢数量
+int n;  //车厢数量 n<N(n<=N-1)
 
 int main(int argc, char **argv) {
 	cout << "n:";
